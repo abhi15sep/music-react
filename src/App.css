@@ -1,0 +1,33 @@
+.App {
+text-align: center;
+}
+
+html {
+  font-size: 18px;
+  background-color: #602566;
+}
+
+header nav {
+  background-color: #602566;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 3rem;
+  align-items: center;
+}
+
+.flex a:nth-child(2) {
+  color: white;
+  text-shadow: rgb(58, 23,63) 1px 1px 0px;
+  font-size: .8rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.flex a:nth-child(2):hover {
+  text-decoration: none;
+  color: #E93275;
+}
